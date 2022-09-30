@@ -1,13 +1,13 @@
+import {Skill} from "./skill.model";
+
 export class DeveloperModel {
   constructor(
-    lastName: string,
-    firstName: string,
-    age: number,
-    gender: string,
-    bio: string,
-    skills: string
+    public lastName: string,
+    public firstName: string,
+    public age: number,
+    public gender: string,
+    public bio: string,
+    public skills: Skill[]
   ) {
   }
-
-
 }

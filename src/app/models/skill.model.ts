@@ -1,8 +1,8 @@
-export class SkilModel{
+export class Skill {
   constructor(
-    name: string,
-    logo: string,
-    site: string
+    public name: string,
+    public logo: string,
+    public site: string
   ) {
   }
 }
